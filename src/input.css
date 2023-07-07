@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@layer components {
+  .myBtn {
+    @apply bg-yellow-400 text-white px-2 py-1 rounded-md hover:bg-white hover:text-yellow-400;
+  }
+}
+
+@tailwind utilities;
